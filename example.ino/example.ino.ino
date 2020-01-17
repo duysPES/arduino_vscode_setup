@@ -5,6 +5,10 @@
  * 
  * Reads from Analog pin and changes blinking rate of connected LED depending on 
  * analog value. Lower value equates to slow blinking while faster blinking result in higher value.
+ * 
+ * This also showcases more powerful features of the so called *Arduino Language* which is essentially
+ * just a superset of C++, meaning all C++ and C code is valid. This demonstrates a very overkill example
+ * of how to utilize objects to do what we want. This is in the form of OOP (Object-Orientated Programming)
  ***/
 
 #include <stdint.h>
